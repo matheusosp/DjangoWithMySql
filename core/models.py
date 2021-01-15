@@ -5,7 +5,7 @@ from django.template.defaultfilters import slugify
 
 
 class Base(models.Model):
-    create = models.DateField("Date_created", auto_now_add=True)
+    create = models.DateField("create_at", auto_now_add=True)
     modified = models.DateField("Data update", auto_now_add=True)
     active = models.BooleanField("active", default=True)
 
