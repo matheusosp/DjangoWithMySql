@@ -13,12 +13,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 import dj_database_url
 import os
-<<<<<<< HEAD
-=======
 
 # usando postgressql com heroku
->>>>>>> deploy
-
 DATABASES = {
     'default': dj_database_url.config()
 }
@@ -133,16 +129,15 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-<<<<<<< HEAD
 
-
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-=======
 
 
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
->>>>>>> deploy
+
+
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 
 """
 EMAIL_HOST = 'localhost'
